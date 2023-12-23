@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>$CHARLIE</title>
+<link href="https://fonts.googleapis.com/css2?family=Athiti:wght@400;700&family=GFS+Didot&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'GFS Didot', serif; /* Apply GFS Didot to the body */
+  }
+  .bg {
+    position: relative;
+    background-image: url('jungle.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.76);
+    z-index: 1;
+  }
+  .centered-text h1 {
+    font-family: 'Athiti', sans-serif; /* Apply Athiti to headlines */
+    font-weight: 700; /* Optional: specify the weight if needed */
+    font-size: 8rem;
+    margin: 0px;
+  }
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    z-index: 2;
+  }
+
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    z-index: 2;
+  }
+
+  .CA {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: 40%;
+    left: 50%;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    z-index: 2;
+  }
+  .social-media-buttons {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  .social-media-buttons img {
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+  }
+
+  .monke {
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    transform: translateX(-50%);
+    /* z-index: 2; */
+  }
+
+  .monke img {
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+  }
+
+  
+</style>
+</head>
+<body>
+
+<div class="bg">
+  <div class="centered-text">
+    <h1>$CHARLIE</h1>
+    <p>Find the playful monkey, drop us a message, and anticipate the shower of bananas. Immerse yourself in the vibe and await the whimsical moment!</p>
+  </div>
+  <div class="social-media-buttons">
+    <!-- Replace with your actual social media links and icons -->
+    <p class="CA">CA:SOON</p>
+    <a href="https://twitter.com/">
+      <img src="telegram.svg" alt="Twitter">
+    </a>
+    <a href="https://facebook.com/yourprofile">
+      <img src="x-logo.png" alt="Facebook">
+    </a>
+  </div>
+  <div class="monke">
+      <img src="monke.png" alt="Monke">
+  </div>
+</div>
+
+</body>
+</html>
